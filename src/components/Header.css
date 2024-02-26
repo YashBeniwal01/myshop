@@ -1,0 +1,105 @@
+/* Header.css */
+
+.header {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.navigation-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.title {
+  font-family: 'Arial', sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 5px 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  transition: font-size 0.3s ease;
+}
+
+nav ul li a:hover {
+  font-size: 20px;
+}
+ 
+.menu-icon{
+    cursor: pointer;
+    display: none;
+}
+.menu-icon .bar{
+    font-weight: lighter;
+    width: 25px;
+    height: 3px;
+    margin: 5px 0;
+    background-color: black;
+}
+
+
+
+.close-btn {
+  margin-top: 20px; /* Adjust margin as needed */
+  display: none; /* Hide by default */
+}
+
+.menu-container.open {
+  left: 0; /* Show sidebar */
+}
+
+@media screen and (max-width:767px) {
+  nav ul{
+    display: block;
+  }
+
+  nav ul li{
+    border: 1px solid 340c0c;
+  }
+
+  nav ul li a{
+    font-size: 20px;
+    color: white;
+  }
+
+  nav ul li a:hover{
+    border: 1px solid 340c0c;
+    background-color: white;
+    color:#340c0c;
+  }
+
+  .menu-icon{
+    display: block;
+  }
+
+  .menu-container {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Sidebar initially hidden */
+    width: 200px; /* Sidebar width */
+    height: 100vh;
+    background-color: #340c0c;
+    padding: 20px;
+    transition: left 0.3s ease; /* Smooth transition */
+  }
+
+  .menu-container.open{
+    .close-btn{
+      display: block;
+      background-color: #340c0c;
+      color: white;
+      font-size: 20px;
+    }
+  }
+ 
+}
