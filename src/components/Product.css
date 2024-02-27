@@ -1,0 +1,86 @@
+.product-container{
+    text-align: center;
+    margin-top: 30%;
+}
+.productTitle{
+    color: black;
+    font-family: 'arial';
+}
+
+.image-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.product-image {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: contain; /* Scale the image to fit the box while preserving aspect ratio */
+    background-position: center; /* Center the image within the box */
+    background-repeat: no-repeat; /* Prevent repeating of the image */
+    /* background-color: #a9f1e9; */
+    background-color: rgb(255, 206, 236);
+    border-radius: 5px;
+    box-shadow:0 2px 4px rgba(0,0,0,0.1);
+    padding: 40px;
+}
+
+.image1 {
+    background-image: url('C:\Users\raj\Desktop\shop\client\src\components\images\cooler.png');
+}
+
+.product-image .image-text{
+    font-family: 'arial';
+    position: absolute;
+    top:80%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 100%;
+    opacity: 0.7;
+}
+.image-text h4{
+    margin-bottom:-10px ;
+}
+.image-text p{
+    font-family: 'roboto';
+    font-size: 12px;
+    color: rgb(6, 119, 119);
+}
+.image2{
+    background-image: url('C:\Users\raj\Desktop\shop\client\src\components\images\chair.png');
+}
+
+.image3 {
+    background-image: url('C:\Users\raj\Desktop\shop\client\src\components\images\stand.png');
+}
+.image4 {
+    background-image: url('C:\Users\raj\Desktop\shop\client\src\components\images\fridge.png');
+}
+
+/* Media query for tablet screens */
+@media screen and (max-width: 768px) {
+    .product-image {
+        width: calc(50% - 20px); /* Set width to occupy half of the container width with margin */
+        max-width: 200px; /* Set maximum width for each image box */
+    }
+}
+
+/* Media query for mobile screens */
+@media screen and (max-width: 480px) {
+    .product-image {
+              /* Set width to occupy full container width with margin */
+        width: 20%;
+        margin: 10px;
+    }
+}
