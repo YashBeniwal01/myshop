@@ -59,6 +59,10 @@
         height:80vh;
     }
 
+    .myTitle{
+      font-size: 1rem;
+    }
+
 
 
 .introduction::before {

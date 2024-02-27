@@ -1,6 +1,5 @@
 .product-container{
     text-align: center;
-    margin-top: 30%;
 }
 .productTitle{
     color: black;
@@ -67,6 +66,20 @@
 .image4 {
     background-image: url('C:\Users\raj\Desktop\shop\client\src\components\images\fridge.png');
 }
+.image5 {
+    background-image: url('C:\Users\raj\Desktop\shop\client\src\components\images\sofa.png');
+}
+.image6 {
+    background-image: url('C:\Users\raj\Desktop\shop\client\src\components\images\fan.png');
+}
+.image7 {
+    background-image: url('C:\Users\raj\Desktop\shop\client\src\components\images\bed.png');
+}
+.image8 {
+    background-image: url('C:\Users\raj\Desktop\shop\client\src\components\images\almirah.png');
+}
+
+
 
 /* Media query for tablet screens */
 @media screen and (max-width: 768px) {
@@ -74,6 +87,7 @@
         width: calc(50% - 20px); /* Set width to occupy half of the container width with margin */
         max-width: 200px; /* Set maximum width for each image box */
     }
+    
 }
 
 /* Media query for mobile screens */
@@ -83,4 +97,7 @@
         width: 20%;
         margin: 10px;
     }
+    .product-container{
+    margin-top: 30%;
+}    
 }
