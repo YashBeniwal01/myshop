@@ -1,0 +1,80 @@
+/* Introduction.css */
+
+.introduction {
+    margin: auto;
+
+    /* Set the background image */
+    background-image: url("C:\Users\raj\Desktop\shop\client\src\components\images\kashmir.webp"); /* Adjust the path accordingly */
+    /* Other styles */
+    width: 100%; /* Set width as needed */
+    height: 100vh; /* Set height as needed */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+}
+
+.myTitle {
+    position: absolute;
+    top: 40%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Adjust color as needed */
+    font-size: 1.5rem;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
+.introduction::before {
+    content: ""; /* Required for the pseudo-element to work */
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    background-image: url('C:\Users\raj\Desktop\shop\client\src\components\images\cooler.png'); /* Path to your overlay image */
+    width: 50%; /* Adjust width of the overlay image */
+    height: 500px; /* Adjust height of the overlay image */
+    background-size: contain; /* Adjust background size as needed */
+    background-repeat: no-repeat; /* Prevent repeating of the image */
+    animation:slideInFromLeft 1s ease forwards;
+}
+
+@media screen and (max-width: 768px){
+
+    @keyframes slideInFromLeft {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(0);
+        }
+    }
+
+    .introduction{
+        height:80vh;
+    }
+
+
+
+.introduction::before {
+    content: ""; /* Required for the pseudo-element to work */
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    background-image: url('C:\Users\raj\Desktop\shop\client\src\components\images\cooler.png'); /* Path to your overlay image */
+    width: 50%; /* Adjust width of the overlay image */
+    height: 500px; /* Adjust height of the overlay image */
+    background-size: contain; /* Adjust background size as needed */
+    background-repeat: no-repeat; /* Prevent repeating of the image */
+    animation:slideInFromLeft 1s ease forwards;
+
+}
+
+}

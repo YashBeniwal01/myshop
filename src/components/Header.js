@@ -32,12 +32,21 @@ const Header = () => {
         </div>
 
       </nav>
+      <div className='myIcons'>     
 
+      {/* Cart button */}
+      <div className="cart-button">
+        <button className="cart-icon">
+          <i className="fa fa-shopping-cart"></i> {/* You can use any cart icon here */}
+        </button>
+      </div>
       <div className='menu-icon' onClick = {toggleMenu}>
         <div className='bar'></div>
         <div className='bar'></div>
         <div className='bar'></div>
       </div>
+
+       </div>
        </div>
 
     </header>
