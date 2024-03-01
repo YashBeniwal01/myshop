@@ -1,4 +1,7 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import Box from './Box';
 import './Product.css';
 
 const Product = ()=>{
@@ -8,12 +11,16 @@ const Product = ()=>{
                 <h1>Shop by category</h1>
             </div>
             <div className = "image-container">
+                
+                <Link to= "/box">
                 <div className = "product-image image1">
                     <div className="image-text">
-                        <h4>Most Wanted</h4>
+                        <h4><a href= "/box.js">Most Wanted</a></h4>
                         <p>7 versions</p>
                     </div>
                 </div>
+               </Link>
+                
                 <div className = "product-image image2">
                 <div className="image-text">
                         <h4>Yash</h4>

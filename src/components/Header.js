@@ -2,6 +2,8 @@
 
 import React, { useState } from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom';
+import Box from './Box';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,8 +26,8 @@ const Header = () => {
       {isOpen && <button className="close-btn" onClick={closeMenu}>X</button>}
 
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Products</a></li>
+          <li><Link to = "/">Home</Link></li>
+          <li><Link to = "/box">Product</Link></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
