@@ -15,6 +15,25 @@
   padding: 1px 10px; /* Adjust padding as needed */
 }
 
+/* Header.css */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: calc(100% - 290px);
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  z-index: 999; /* Ensure overlay is above other content */
+}
+
+.overlay.show {
+  display: block; /* Show overlay when sidebar is open */
+}
+
+/* Other styles */
+
+
 .title {
   font-family: 'Arial', sans-serif;
 }
@@ -122,12 +141,15 @@ nav ul li a:hover {
   .menu-container {
     position: fixed;
     top: 0;
-    left: -250px; /* Sidebar initially hidden */
-    width: 200px; /* Sidebar width */
+    left: -75%; /* Sidebar initially hidden */
+    width: 250px; /* Sidebar width */
     height: 100vh;
     background-color: #340c0c;
     padding: 20px;
     transition: left 0.3s ease; /* Smooth transition */
+  }
+  .menu-container.open {
+    transform: translateX(0); /* Move sidebar into view when open */
   }
 
   .menu-container.open{

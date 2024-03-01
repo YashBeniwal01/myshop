@@ -51,6 +51,9 @@ const Header = () => {
        </div>
        </div>
 
+       {isOpen && <div className="overlay" onClick={closeMenu}></div>} {/* Overlay element */}
+
+
     </header>
   );
 }

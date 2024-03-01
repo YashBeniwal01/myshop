@@ -15,10 +15,12 @@ const Product = ()=>{
                 
                 <div className = "product-image image1">
                     <Link to= "/box">
+                     
                     <div className="image-text">
                         <h4>Most Wanted</h4>
                         <p>7 versions</p>
                     </div>
+                     
                     </Link>
                 </div>
                 
