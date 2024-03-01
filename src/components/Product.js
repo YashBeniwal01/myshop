@@ -12,14 +12,17 @@ const Product = ()=>{
             </div>
             <div className = "image-container">
                 
-                <Link to= "/box">
+                
                 <div className = "product-image image1">
+                    <Link to= "/box">
                     <div className="image-text">
-                        <h4><a href= "/box.js">Most Wanted</a></h4>
+                        <h4>Most Wanted</h4>
                         <p>7 versions</p>
                     </div>
+                    </Link>
                 </div>
-               </Link>
+                
+               
                 
                 <div className = "product-image image2">
                 <div className="image-text">
@@ -27,6 +30,7 @@ const Product = ()=>{
                         <p>With different shapes</p>
                     </div>
                 </div>
+                
                 <div className = "product-image image3">
                 <div className="image-text">
                         <h4>Fridge Stand</h4>
