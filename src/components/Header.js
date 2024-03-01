@@ -26,7 +26,7 @@ const Header = () => {
       {isOpen && <button className="close-btn" onClick={closeMenu}>X</button>}
 
         <ul>
-          <li><Link to = "/">Home</Link></li>
+          <li><Link to = "/myshop">Home</Link></li>
           <li><Link to = "/box">Product</Link></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
