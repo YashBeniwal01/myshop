@@ -12,10 +12,9 @@ function Box() {
     <div className='idea'>
     <div className='image-container'>
 
-        <Link to="/" className='product-image image1'>
+        <Link to="/items" className='product-image image1'>
 
-         
-                    <div className="image-text">
+                     <div className="image-text">
                         <h4>Most Wanted</h4>
                         <p>7999 Rs.</p>
                     </div>

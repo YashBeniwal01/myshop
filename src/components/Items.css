@@ -1,0 +1,63 @@
+.item-container {
+    margin-top: 10%;
+    display: flex;
+  }
+  
+  .item-image {
+    flex: 1; /* Take up remaining space */
+    /* Add styles for the image container */
+  }
+  
+  .item-details {
+    flex: 2; /* Take up double the space compared to image */
+    /* Add styles for the details container */
+  }
+  
+  .myimage {
+    /* Add styles for the image */
+    background-image: url('C:\Users\raj\Desktop\shop\client\src\components\images\cooler.png');
+    background-size: contain; /* Ensure full image is visible while maintaining aspect ratio */
+    background-position: center;
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    width: 100px;
+    height: 100vh; /* Set height to fill the viewport */
+  }
+  
+  
+  .item-details h1 {
+    margin: 0;
+  }
+  
+  .item-details h3 {
+    margin-top: 5px;
+  }
+  
+  .item-description {
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:20px;
+    font-size: 1.1rem;
+    
+  }
+  
+  .item-description p {
+    margin: 5px 0;
+  }
+  
+  @media (max-width:767px) {
+    .item-container{
+        display: block;
+        align-items: center;
+    }
+    .myimage {
+        /* Add styles for the image */
+        width: 250px;
+        height: 80vh; /* Set height to fill the viewport */
+      }
+      .item-details,
+      .item-description{
+        margin: 10px;
+      }
+    
+  }

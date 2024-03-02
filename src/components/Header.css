@@ -8,6 +8,12 @@
   z-index:1;
 }
 
+.signinText{
+  text-decoration: none;
+  color: black;
+}
+
+
 .navigation-container {
   display: flex;
   align-items: center;
@@ -37,6 +43,8 @@
 
 .title {
   font-family: 'Arial', sans-serif;
+  color: black;
+  text-decoration: none;
 }
 
 nav ul {

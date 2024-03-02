@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="navigation-container">
-        <h2 className="title">Sundar</h2>       
+        <h2><Link to= "/myshop" className='title'>Sundar</Link></h2>       
      
       <nav className={`menu-container ${isOpen ? 'open': ''}`}>
       <div className='links'>
@@ -27,7 +27,7 @@ const Header = () => {
 
         <ul>
           <li><Link to = "/myshop">Home</Link></li>
-          <li><Link to = "/box">Product</Link></li>
+          <li><Link to = "/product">Product</Link></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
@@ -35,6 +35,7 @@ const Header = () => {
 
       </nav>
       <div className='myIcons'>     
+      <h3><Link to={"/signin"} className= "signinText" >signin</Link></h3>
 
       {/* Cart button */}
       <div className="cart-button">

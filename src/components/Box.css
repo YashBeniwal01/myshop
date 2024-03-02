@@ -1,12 +1,11 @@
-
-@media screen and (max-width:767px){
-    .idea{
-        margin-top: 20%;
-    }
-}
-
 .image-text{
     color: black;
+}
+
+.product-image:hover{
+    transition: all 1s;
+    opacity:200%;
+    background-color: black;
 }
 
 .idea{
@@ -28,4 +27,8 @@
 .rupee::before {
     content: "\20B9 "; /* Unicode value of the rupee symbol */
   }
-  
+  @media screen and (max-width:767px){
+    .idea{
+        margin-top: 20%;
+    }
+}
