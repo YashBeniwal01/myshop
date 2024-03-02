@@ -1,5 +1,16 @@
+
+@media screen and (max-width:767px){
+    .idea{
+        margin-top: 20%;
+    }
+}
+
+.image-text{
+    color: black;
+}
+
 .idea{
-    margin-top: 20%;
+    margin-top: 5%;
     text-align: center;
 }
 

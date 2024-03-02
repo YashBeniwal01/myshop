@@ -1,5 +1,6 @@
 // ClickableObject.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Product from './Product';
 import "./Box.css"
 import "./Product.css"
@@ -10,12 +11,16 @@ function Box() {
   return (
     <div className='idea'>
     <div className='image-container'>
-        <div className = "product-image image1">
+
+        <Link to="/" className='product-image image1'>
+
+         
                     <div className="image-text">
                         <h4>Most Wanted</h4>
                         <p>7999 Rs.</p>
                     </div>
-        </div>
+        
+        </Link>
         <div className = "product-image imagex">
                     <div className="image-text">
                         <h4>Sammer</h4>
