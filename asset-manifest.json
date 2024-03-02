@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/myshop/static/css/main.90105bbc.css",
-    "main.js": "/myshop/static/js/main.8e5dfe96.js",
+    "main.css": "/myshop/static/css/main.46060e6f.css",
+    "main.js": "/myshop/static/js/main.d8ec040d.js",
     "static/js/453.419a5d54.chunk.js": "/myshop/static/js/453.419a5d54.chunk.js",
     "static/media/cooler.png": "/myshop/static/media/cooler.689ffbd09cf573301c1f.png",
     "static/media/almirah.png": "/myshop/static/media/almirah.2961dd0192c7d75a173d.png",
     "static/media/sofa.png": "/myshop/static/media/sofa.580d0eafb4e78ed729d4.png",
+    "static/media/cool1.png": "/myshop/static/media/cool1.6205575304075edd60cb.png",
+    "static/media/cool2.png": "/myshop/static/media/cool2.280beed876e40087945c.png",
     "static/media/kashmir.webp": "/myshop/static/media/kashmir.d06b799f034168039b91.webp",
     "static/media/fridge.png": "/myshop/static/media/fridge.9c7681e31dac606fd630.png",
+    "static/media/cool3.png": "/myshop/static/media/cool3.f85a2e62e49ca7c9ed73.png",
     "static/media/bed.png": "/myshop/static/media/bed.ab6fd720fc18d19b65f3.png",
     "static/media/chair.png": "/myshop/static/media/chair.402e9a3caea9dabafc9c.png",
     "static/media/stand.png": "/myshop/static/media/stand.5ea5ddee8a930f25a096.png",
     "static/media/fan.png": "/myshop/static/media/fan.1fb4d197a0f6be96d298.png",
     "index.html": "/myshop/index.html",
-    "main.90105bbc.css.map": "/myshop/static/css/main.90105bbc.css.map",
-    "main.8e5dfe96.js.map": "/myshop/static/js/main.8e5dfe96.js.map",
+    "main.46060e6f.css.map": "/myshop/static/css/main.46060e6f.css.map",
+    "main.d8ec040d.js.map": "/myshop/static/js/main.d8ec040d.js.map",
     "453.419a5d54.chunk.js.map": "/myshop/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90105bbc.css",
-    "static/js/main.8e5dfe96.js"
+    "static/css/main.46060e6f.css",
+    "static/js/main.d8ec040d.js"
   ]
 }
