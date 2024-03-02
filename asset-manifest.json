@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myshop/static/css/main.4f639b34.css",
-    "main.js": "/myshop/static/js/main.d8ec040d.js",
+    "main.css": "/myshop/static/css/main.23599915.css",
+    "main.js": "/myshop/static/js/main.cc9e8006.js",
     "static/js/453.419a5d54.chunk.js": "/myshop/static/js/453.419a5d54.chunk.js",
     "static/media/cooler.png": "/myshop/static/media/cooler.689ffbd09cf573301c1f.png",
     "static/media/almirah.png": "/myshop/static/media/almirah.2961dd0192c7d75a173d.png",
@@ -16,12 +16,12 @@
     "static/media/stand.png": "/myshop/static/media/stand.5ea5ddee8a930f25a096.png",
     "static/media/fan.png": "/myshop/static/media/fan.1fb4d197a0f6be96d298.png",
     "index.html": "/myshop/index.html",
-    "main.4f639b34.css.map": "/myshop/static/css/main.4f639b34.css.map",
-    "main.d8ec040d.js.map": "/myshop/static/js/main.d8ec040d.js.map",
+    "main.23599915.css.map": "/myshop/static/css/main.23599915.css.map",
+    "main.cc9e8006.js.map": "/myshop/static/js/main.cc9e8006.js.map",
     "453.419a5d54.chunk.js.map": "/myshop/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f639b34.css",
-    "static/js/main.d8ec040d.js"
+    "static/css/main.23599915.css",
+    "static/js/main.cc9e8006.js"
   ]
 }
