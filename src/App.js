@@ -8,6 +8,7 @@ import Box from './components/Box';
 import Home from './components/Home';
 import Signin from './components/Signin';
 import Items from './components/Items';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path='/signin' element={<Signin />}/>
         <Route path='/product' element={<Product />}/>
         <Route path='/items' element={<Items />}/>
+        <Route path ='/contact' element={<Contact/>}/>
 
 
       </Routes>

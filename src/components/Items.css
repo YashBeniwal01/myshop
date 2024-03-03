@@ -44,7 +44,29 @@
   .item-description p {
     margin: 5px 0;
   }
+
+  .add-cart{
+    background-color: yellow;
+  }
+
+  .ask-query{
+    background-color: yellowgreen;
+  }
+
+  .add-cart, .ask-query{
+    color: black;
+    opacity: 1;
+    margin: 5px;
+    padding: 1rem 4rem;
+    border-radius: 1.5rem;
+    font-size: 15px;
+    width: 250px;
+  }
   
+.add-cart:hover,.ask-query:hover{
+  opacity: 0.8;
+}
+
   @media (max-width:767px) {
     .item-container{
         display: block;
@@ -58,6 +80,18 @@
       .item-details,
       .item-description{
         margin: 10px;
+      }
+
+      .item-details{
+        margin-top: -4%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .add-cart, .ask-query{
+        padding: 0.5rem 4rem;
+        font-size: 15px;
       }
     
   }

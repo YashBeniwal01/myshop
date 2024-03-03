@@ -89,10 +89,6 @@ nav ul li a:hover {
   left: 0; /* Show sidebar */
 }
 
-/* Header.css */
-
-/* Other styles */
-
 .cart-button {
   margin-right: 20px; /* Adjust margin as needed */
 }
@@ -157,6 +153,11 @@ nav ul li a:hover {
     padding: 20px;
     transition: left 0.3s ease; /* Smooth transition */
   }
+
+ nav ul li{
+  margin: 20px;
+ }
+
   .menu-container.open {
     transform: translateX(0); /* Move sidebar into view when open */
   }
