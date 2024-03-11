@@ -62,11 +62,13 @@ function Contact() {
       <div className="contact-box">
         <div className="left-contact-box">
           <h3>Location:</h3>
-          <p>Jaipur, Rajasthan</p>
+          <p>Chaksu, Jaipur, Rajasthan</p>
           <h3>Email:</h3>
           <p>beniwalyash35@gmail.com</p>
-          <h3>Contact:</h3>
-          <p>6378920482</p>
+          <h3>Contact:</h3> 
+          <p>9413804855, 9887379460, 8949037133</p>
+          <h4>Timing:</h4>
+          <p>8am - 9pm</p>
         </div>
         <div className="right-contact-box">
           <form onSubmit={handleSubmit}>

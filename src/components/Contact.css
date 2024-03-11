@@ -1,20 +1,25 @@
 .contact-box {
     display: flex;
     flex-wrap: wrap; /* Allow flex items to wrap */
+    align-items: center;
+    justify-content: center;
     
-    margin-top: 10%;
   }
   
   .left-contact-box {
-    flex: 1;
-    padding: 20px; /* Add padding for spacing inside the box */
+    /* flex: 1; */
+    padding: 20px 8rem; /* Add padding for spacing inside the box */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow effect */
     border-radius: 10px; /* Add border-radius for rounded corners */
     overflow: hidden; /* Hide overflowing content */
+    margin: 5%;
+    text-align: center;
+   
   }
   
   .right-contact-box {
     flex: 1;
+    display: none;
     padding: 20px; /* Add padding for spacing inside the box */
     margin-left: 20px; /* Add margin to separate the boxes */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow effect */

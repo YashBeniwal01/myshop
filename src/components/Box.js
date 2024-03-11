@@ -6,21 +6,28 @@ import "./Box.css"
 import "./Product.css"
 function Box() {
   // Function to handle click event and open a new page
+
+  const products = [
+    { name: "Most Wanted", price: "7999", id: 1 },
+    { name: "Sammer", price: "6999", id: 2 },
+    // Add more product data as needed
+  ];
+
  
 
   return (
     <div className='idea'>
     <div className='image-container'>
 
-        <Link to="/items" className='product-image image1'>
-
-                     <div className="image-text">
-                        <h4>Most Wanted</h4>
-                        <p>7999 Rs.</p>
-                    </div>
-        
-        </Link>
-        <div className = "product-image imagex">
+    {products.map(product => (
+          <Link key={product.id} to={`/items/${product.id}`} className={`product-image image${product.id}`}>
+            <div className="image-text">
+              <h4>{product.name}</h4>
+              <p>{product.price} Rs.</p>
+            </div>
+          </Link>
+        ))}
+        <div className = "product-image image2">
                     <div className="image-text">
                         <h4>Sammer</h4>
                         <p>6999 Rs.</p>
@@ -86,7 +93,7 @@ function Box() {
                     </div>
         </div>
 
-        <div className = "product-image imagex">
+        <div className = "product-image imagey">
                     <div className="image-text">
                         <h4>Sammer</h4>
                         <p>6999 Rs.</p>
